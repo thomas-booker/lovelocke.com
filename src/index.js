@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Main from './main';
 import reportWebVitals from './reportWebVitals';
-import Parallax from './Parallax';
 import Navbar from './Navbar';
 import Header from './Header';
 import Aboutme from './Aboutme';
