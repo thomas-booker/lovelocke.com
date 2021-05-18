@@ -1,43 +1,106 @@
 import M from 'materialize-css'
+import react, { Component } from 'react'
 
-function Aboutme() {
-    M.AutoInit();
+class Aboutme extends Component {
 
+    componentDidMount() {
+        M.AutoInit();
+    }
+
+
+    
+    render() {
     return (
-        <div className="container  white-text">
+        <div class="container white-text z-depth-2">
             <div className="row">
-                <div className="col s8">
-                    <h2>About me text in-depth</h2>
-                    <p>Placement text, etc etc etc</p>
+                <div className="col s12">
+
+                    <h2>About me</h2>
+                    <p>After completing a development project whilst working in IT support I decided
+                        to switch careers to a programmer full time. My journey began with going back
+                        to university and completing a Masters in Computing, finishing with Distinction.
+                    </p>
+                    <p>Half-way through my course I found employment as an Application Server Developer,
+                        and I have been in this role now for three years.
+                    </p>
+                    <p>I have continued to learn and develop, focusing on increasing my knowledge of
+                        the Cloud, with AWS and Heroku, and also completing several projects using
+                        NodeJS and React. As well as learning new languages and frameworks I have also
+                        worked on improving my Java skills, with a focus on Design Patterns and supporting
+                        frameworks such as Spring / Springboot.
+                    </p>
+
                 </div>
-                <div className="col s4">
-                    <h2>Small image placement</h2>
-                </div>
-                <div className="col s8">
-                <div class="row">
-    <div class="col s12 blue-grey darken-4">
-    <ul id="tabs-swipe-demo" class="tabs tabs-fixed-width tab-demo z-depth-1 blue-grey darken-3">
+                <div className="col s10 offset-s1">
+                <div class="row z-depth-2">
+    <div class="col s12 blue-grey darken-3">
+    <ul id="tabs-swipe-demo" class="tabs tabs-fixed-width tab-demo blue-grey darken-3">
     <li class="tab col s3"><a class="white-text" href="#test-swipe-1">Skills</a></li>
     <li class="tab col s3"><a class="white-text" href="#test-swipe-2">Experience</a></li>
     <li class="tab col s3"><a class="white-text" href="#test-swipe-3">Education</a></li>
   </ul>
     </div>
-    <div id="test-swipe-1" class="col s12 orange z-depth-1">
+    <div id="test-swipe-1" class="col s12 blue-grey darken-2 z-depth-1">
         <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
+            <li style={{fontWeight: 500}}>Java</li>
+            <li>Backend development both on a large, corporate domain
+                and on personal projects</li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>Spring / Springboot</li>
+            <li></li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>React / Node</li>
+            <li></li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>Git / Github / Gitlab / Gerrit</li>
+            <li></li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>HTML / CSS / Javascript</li>
+            <li></li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>SQL / Postgres</li>
+            <li></li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>AWS / Heroku</li>
+            <li></li>
         </ul>
     </div>
-  <div id="test-swipe-2" class="col s12 red z-depth-1">
-  <ul>
-            <li>Exp 1</li>
-            <li>Exp 2</li>
+  <div id="test-swipe-2" class="col s12 blue-grey darken-2 z-depth-1">
+        <ul>
+            <li style={{fontWeight: 500}}>Application Server Developer</li>
+            <li>2018 - Present</li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>IT Support / Dashboard Development</li>
+            <li>2017 - 2018</li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>Personal Projects</li>
+            <li>2017 - Present</li>
         </ul>
   </div>
-  <div id="test-swipe-3" class="col s12 orange z-depth-1">
-  <ul>
-            <li>Edu 1</li>
-            <li>Edu 2</li>
+  <div id="test-swipe-3" class="col s12 blue-grey darken-2 z-depth-1">
+        <ul>
+            <li style={{fontWeight: 500}}>AWS Certification - Developer / Cloud Practitioner</li>
+            <li>2021</li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>MSc Computing - Distinction</li>
+            <li>2017 - 2019 - Manchester Metropolitan University</li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>BA(hons) English - 2:1</li>
+            <li>tbc - tbc - Manchester Metropolitan University</li>
+        </ul>
+        <ul>
+            <li style={{fontWeight: 500}}>Agile with Scrum</li>
+            <li>tbc - QA</li>
         </ul>
   </div>
   </div>
@@ -46,5 +109,8 @@ function Aboutme() {
         </div>
     )
 }
+}
+
+
 
 export default Aboutme;

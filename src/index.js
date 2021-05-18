@@ -8,6 +8,7 @@ import Aboutme from './Aboutme';
 import Projects from './Projects';
 import Footer from './Footer';
 import Contact from './Contact';
+import M from 'materialize-css'
 
 ReactDOM.render(
   <React.StrictMode>
