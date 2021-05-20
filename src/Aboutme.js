@@ -14,7 +14,7 @@ class Aboutme extends Component {
         <div class="container white-text z-depth-2">
             <div className="row">
                 <div className="col s5">
-                    <h2>About me</h2>
+                    <h2 style={{textAlign: "center"}}>About me</h2>
                     <p>After completing a development project whilst working in IT support I decided
                         to switch careers to a programmer full time. My journey began with going back
                         to university and completing a Masters in Computing, finishing with Distinction.

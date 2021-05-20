@@ -16,7 +16,8 @@ class Header extends Component {
                 <div className="col s4">
                     <img src={Tom} class="responsive-img circle z-depth-2" style={{marginTop: 10, marginBottom: 10}}/>
                 </div>
-                <div className="col s7 blue-grey darken-3 z-depth-2" style={{marginTop: 15, marginLeft: 25, marginBottom: 15}}>
+                <div className="col s7 blue-grey darken-3 z-depth-2" style={{marginTop: 15, marginLeft: 25,
+                     marginBottom: 15, textAlign: "center", height: 370}}>
                     <h3 style={{textShadow: "1px 1px 6px #000000"}}>Hi, I'm Tom Booker</h3>
                     <h3 style={{textShadow: "1px 1px 6px #000000"}}>Java Developer</h3>
                     <h3 style={{textShadow: "1px 1px 6px #000000"}}>Based in Manchester</h3>

@@ -20,10 +20,13 @@ class Projects extends Component {
                                 <span class="card-title orange darken-4 z-depth-5" style={{fontSize: 20, fontWeight: 600, height: 40, padding: 5}}>Project 1</span>
                             </div>
                             <div class="card-content">
-                                <p>My first project</p>
+                                <p style={{fontWeight: 600}}>Discord Bot</p>
+                                <p>Created using Java, Springboot and Thymeleaf, 
+                                    using the JDA framework
+                                </p>
                             </div>
                             <div class="card-action">
-                                <a href="#">See on Github</a>
+                                <a href="https://github.com/thomas-booker/spiritofnirn-discord-bot" target="_blank">See on Github</a>
                             </div>
                         </div>
                     </div>
@@ -34,10 +37,13 @@ class Projects extends Component {
                                 <span class="card-title orange darken-4 z-depth-5" style={{fontSize: 20, fontWeight: 600, height: 40, padding: 5}}>Project 2</span>
                             </div>
                             <div class="card-content">
-                                <p>My second project</p>
+                                <p style={{fontWeight: 600}}>Currency Exchange</p>
+                                <p>Springboot application with a Thymeleaf website,
+                                    and REST controller, connecting to an exchange API
+                                </p>
                             </div>
                             <div class="card-action">
-                                <a href="#">See on Github</a>
+                                <a href="https://github.com/thomas-booker/currencyexchange" target="_blank">See on Github</a>
                             </div>
                         </div>
                     </div>
@@ -48,10 +54,13 @@ class Projects extends Component {
                                 <span class="card-title orange darken-4 z-depth-5" style={{fontSize: 20, fontWeight: 600, height: 40, padding: 5}}>Project 3</span>
                             </div>
                             <div class="card-content">
-                                <p>My third project</p>
+                                <p style={{fontWeight: 600}}>Lovelocke.com</p>
+                                <p>The source for this website, created in React and 
+                                    using the Materialize CSS framework
+                                </p>
                             </div>
                             <div class="card-action">
-                                <a href="#">See on Github</a>
+                                <a href="https://github.com/thomas-booker/lovelocke.com" target="_blank">See on Github</a>
                             </div>
                         </div>
                     </div>
