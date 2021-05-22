@@ -16,7 +16,7 @@ class Aboutme extends Component {
                 <div className="col s5">
                     <h2 style={{textAlign: "center"}}>About me</h2>
                     <p>After completing a development project whilst working in IT support I decided
-                        to switch careers to a programmer full time. My journey began with going back
+                        to switch careers to software development. My journey began with going back
                         to university and completing a Masters in Computing, finishing with Distinction.
                     </p>
                     <p>Half-way through my course I found employment as an Application Server Developer,
