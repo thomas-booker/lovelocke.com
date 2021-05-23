@@ -41,33 +41,25 @@ class Aboutme extends Component {
                 </div>
                 <div id="test-swipe-1" class="col s5 blue-grey darken-2 z-depth-1 offset-s1" style={{height: 320}}>
                     <ul>
-                        <li style={{fontWeight: 500}}>Java</li>
-                        <li>Backend development both on a large, corporate domain
+                        <li style={{fontWeight: 500}}>Backend</li>
+                        <li>Java / Spring / Node - Backend development both on a large, corporate domain
                             and on personal projects</li>
                     </ul>
                     <ul>
-                        <li style={{fontWeight: 500}}>Spring / Springboot</li>
-                        <li></li>
+                        <li style={{fontWeight: 500}}>Frontend</li>
+                        <li>React / HTML / CSS / JavaScript</li>
                     </ul>
                     <ul>
-                        <li style={{fontWeight: 500}}>React / Node</li>
-                        <li></li>
+                        <li style={{fontWeight: 500}}>Version Control</li>
+                        <li>Git / Github / Gitlab / Gerrit</li>
                     </ul>
                     <ul>
-                        <li style={{fontWeight: 500}}>Git / Github / Gitlab / Gerrit</li>
-                        <li></li>
+                        <li style={{fontWeight: 500}}>Databases</li>
+                        <li>SQL / Postgres</li>
                     </ul>
                     <ul>
-                        <li style={{fontWeight: 500}}>HTML / CSS / Javascript</li>
-                        <li></li>
-                    </ul>
-                    <ul>
-                        <li style={{fontWeight: 500}}>SQL / Postgres</li>
-                        <li></li>
-                    </ul>
-                    <ul>
-                        <li style={{fontWeight: 500}}>AWS / Heroku</li>
-                        <li></li>
+                        <li style={{fontWeight: 500}}>Cloud</li>
+                        <li>AWS / Heroku</li>
                     </ul>
                 </div>
                 <div id="test-swipe-2" class="col s5 blue-grey darken-2 z-depth-1 offset-s1" style={{height: 320}}>
