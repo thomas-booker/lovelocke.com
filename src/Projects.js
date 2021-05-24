@@ -8,7 +8,7 @@ class Projects extends Component {
             <div class="container white-text z-depth-2">
                 <div class="row">
                     <div class="col s12">
-                        <h2>My latest projects</h2>
+                        <h2>Latest projects</h2>
                         <p>List of current projects, linking to Github</p>
                     </div>
                 </div>
