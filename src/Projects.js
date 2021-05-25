@@ -39,7 +39,7 @@ class Projects extends Component {
                             <div class="card-content">
                                 <p style={{fontWeight: 600}}>Currency Exchange</p>
                                 <p>Springboot application with a Thymeleaf website,
-                                    and REST controller, connecting to an exchange API
+                                    REST controller, connecting to an exchange API
                                 </p>
                             </div>
                             <div class="card-action">
