@@ -2,9 +2,6 @@ import react, { Component } from 'react'
 
 
 class Contact extends Component {
-    componentDidMount() {
-
-    }
 
     render() {
         return (
